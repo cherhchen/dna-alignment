@@ -5,7 +5,7 @@ import LocalAlignPage from './pages/LocalAlignPage';
 
 function AppRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/dna-alignment/"}>
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/global' element={<GlobalAlignPage />}/>
