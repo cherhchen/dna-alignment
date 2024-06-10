@@ -1,0 +1,39 @@
+.logo {
+  animation: logo-spin 14s infinite linear;
+  filter: drop-shadow(5px 5px 2px #888787aa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.homeButton {
+  background-color: #4681f4;
+  color: white;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px 10px 10px 10px;
+}
+
+.homeButton:hover {
+  background-color: #06559e;
+}

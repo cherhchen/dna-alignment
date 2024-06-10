@@ -1,0 +1,30 @@
+ul {
+    list-style: none;
+}
+
+li {
+    padding-right: 50px;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background-color: #1c1c84;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navList {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+.link {
+    color: white;
+}
