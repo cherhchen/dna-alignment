@@ -1,8 +1,17 @@
-# React + Vite
+# Global and Local Alignment Algorithms with User Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Through this project, I implemented the Needleman-Wunsch algorithm for global alignment and Smith-Waterman algorithm for local alignment. To facilitate ease of use and efficiency, I also created a user interface for computing both global and local alignment algorithms using React, HTML, and CSS for the frontend and JavaScript for the backend.
 
-Currently, two official plugins are available:
+**The code for the alignment algorithms is located in [src/alignment.js](https://github.com/cherhchen/dna-alignment/blob/main/src/alignment.js).**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run project locally
+1. Install [Node.js](https://nodejs.org/en/download/package-manager) on your computer if haven't already.
+2. Install dependencies from `package.json` file: 
+```
+npm install
+```
+3. Start server and run project
+```
+npm run dev
+```
+
