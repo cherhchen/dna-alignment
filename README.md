@@ -7,11 +7,15 @@ Through this project, I implemented the Needleman-Wunsch algorithm for global al
 The application is hosted on GitHub pages at [https://cherhchen.github.io/dna-alignment](https://cherhchen.github.io/dna-alignment/).
 ## Run project locally
 1. Install [Node.js](https://nodejs.org/en/download/package-manager) on your computer if haven't already.
-2. Install dependencies from `package.json` file: 
+2. Clone repository
+```
+git clone https://github.com/cherhchen/dna-alignment.git
+```
+3. Install dependencies from `package.json` file: 
 ```
 npm install
 ```
-3. Start server and run project
+4. Start server and run project
 ```
 npm run dev
 ```
