@@ -4,6 +4,7 @@ Through this project, I implemented the Needleman-Wunsch algorithm for global al
 
 **The code for the alignment algorithms is located in [src/alignment.js](https://github.com/cherhchen/dna-alignment/blob/main/src/alignment.js).**
 
+The application is hosted on GitHub pages at [https://cherhchen.github.io/dna-alignment](https://cherhchen.github.io/dna-alignment/).
 ## Run project locally
 1. Install [Node.js](https://nodejs.org/en/download/package-manager) on your computer if haven't already.
 2. Install dependencies from `package.json` file: 
